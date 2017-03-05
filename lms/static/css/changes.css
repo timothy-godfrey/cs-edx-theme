@@ -30,7 +30,7 @@ header {
   -webkit-transition: 0.4s all;
           transition: 0.4s all;*/ }
           
-#header {
+#global-navigation {
   position: fixed;
   top: 0;
   left: 0;
@@ -41,7 +41,7 @@ header {
   -webkit-transition: 0.4s all;
           transition: 0.4s all; }
 
-#header.headerFixed {
+#global-navigation.headerFixed {
   height: 90px;
   background: white;
   box-shadow: 0 2px 50px -33px #000, 0 1px 0 1px #e6e7d4; }

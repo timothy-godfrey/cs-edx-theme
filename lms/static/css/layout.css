@@ -123,7 +123,7 @@ img {max-width:100%;}
   max-width:1100px;
 }
   @media screen and (max-width:500px) {
-    #headerCenter, #bannerCenter, #subNavCenter, .mainContentCenter, .contentPad, #footerTopCenter, #footerBottomCenter {
+    #headerCenter, #bannerCenter, #subNavCenter, .mainContentCenter, .contentPad, #footerTopCenter, #footerBottomCenter, .wrapper-header {
       width:84.375%; /* 270 / 320 */
     }
   }/*/mediaquery*/

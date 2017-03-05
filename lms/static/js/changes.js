@@ -37,9 +37,9 @@ $(window).on('scroll', function() {
   }
 
   if(windowScroll>50) {
-    $('#header').addClass('headerFixed');
+    $('#global-navigation').addClass('headerFixed');
   } else {
-    $('#header.headerFixed').removeClass('headerFixed');
+    $('#global-navigation.headerFixed').removeClass('headerFixed');
   }
 
 });
