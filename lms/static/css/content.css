@@ -47,7 +47,7 @@ h1 {
 	text-align: center;
 	font-weight: 400;
 	line-height: 40px;
-	background:url(../img/bg-h1.png) no-repeat bottom center;
+	background:url(../images/bg-h1.png) no-repeat bottom center;
 	padding-bottom:50px;
 }
 h2 {
@@ -169,7 +169,7 @@ hr {
 /* Block Quote (indented text) */
 
 blockquote {
-	background:url(../img/bg-blockquote.png) no-repeat bottom center;
+	background:url(../images/bg-blockquote.png) no-repeat bottom center;
 	font-size:1.28571428571429em; /* 18 / 14 */
 	font-weight:100;
 	font-style:italic;
@@ -198,13 +198,13 @@ blockquote {
 
 }
 .linkInt {
-	background-image: url(../img/link-internal.png);
+	background-image: url(../images/link-internal.png);
 }
 .linkExt {
-	background-image: url(../img/link-external.png);
+	background-image: url(../images/link-external.png);
 }
 .linkDoc {
-	background-image: url(../img/link-document.png);
+	background-image: url(../images/link-document.png);
 }
 
 /* Login Page CSS */

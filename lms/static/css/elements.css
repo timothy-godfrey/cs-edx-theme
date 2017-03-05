@@ -43,7 +43,7 @@
 #TopNav ul li a.nav-selected,
 #TopNav ul li a.nav-selected {
 	color:#CF6C00;
-	background:url(../img/bg-selectedPageRoot.gif);
+	background:url(../images/bg-selectedPageRoot.gif);
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -87,7 +87,7 @@
 	color:#CF6C00;
 }
 #subNav ul li a.nav-selected {
-	background:url(../img/bg-subnav-selected.png) no-repeat bottom center;
+	background:url(../images/bg-subnav-selected.png) no-repeat bottom center;
 }
 
 	@media screen and (max-width:1150px) {#subNav ul li a {margin-right:1.8em;}}/*/mediaquery*/
@@ -119,7 +119,7 @@
 }
 #leftNav ul li.selected a {
 	color:#ffffff;
-	background: url(../img/bg-leftNavSelected.png) no-repeat;
+	background: url(../images/bg-leftNavSelected.png) no-repeat;
 	width: 106%;
 	background-size: 100% 50px;
 	margin-left: -13%;
@@ -228,10 +228,10 @@
 	margin-top:-10px;
 }
 .ui-accordion .ui-accordion-header .ui-icon.ui-icon-circle-plus {
-	background:url(../img/ac-plus.png) no-repeat;
+	background:url(../images/ac-plus.png) no-repeat;
 }
 .ui-accordion .ui-accordion-header .ui-icon.ui-icon-circle-minus {
-	background:url(../img/ac-minus.png) no-repeat;
+	background:url(../images/ac-minus.png) no-repeat;
 }
 
 }/*/mediaquery*/
@@ -474,12 +474,12 @@ ul#pager li a {
 }
 ul#pager li a.prev {
 	border:none;
-	background:url(../img/btn-prev-page.png) no-repeat right;
+	background:url(../images/btn-prev-page.png) no-repeat right;
 	opacity:.6;
 }
 ul#pager li a.next {
 	border:none;
-	background:url(../img/btn-next-page.png) no-repeat;
+	background:url(../images/btn-next-page.png) no-repeat;
 	opacity:.6;
 }
 ul#pager li a.next:hover, ul#pager li a.prev:hover {
