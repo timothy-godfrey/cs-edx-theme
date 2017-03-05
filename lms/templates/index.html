@@ -6,7 +6,6 @@ from openedx.core.djangolib.markup import HTML
 %>
 
 <section class="home">
-  <header>
     
         <div id="banner" class="home">
         <div id="bannerCenter">
@@ -61,10 +60,13 @@ from openedx.core.djangolib.markup import HTML
         </a>
       % endif
     </div>
-
-  </header>
+<main id="mainContent" class="home group">
+    <section id="ctas">
+        <div class="contentPad group">
+            
   <%include file="${courses_list}" />
-
+</div>
+</section>
 </section>
 
 <section id="video-modal" class="modal home-page-video-modal video-modal">
