@@ -217,7 +217,7 @@ footer {
 #footer {
   width:100%;
   color:#FFF;
-  position:absolute;
+/*  position:absolute; */
   bottom:0;
   height:288px;
 }
