@@ -67,8 +67,6 @@ from openedx.core.djangolib.markup import HTML
   <%include file="${courses_list}" />
 </div>
 </section>
-</main>
-</section>
 
 <section id="video-modal" class="home-page-video-modal video-modal">
     <div id="slideshow" class="cycle-slideshow" data-cycle-pause-on-hover="true" data-cycle-paused="true" data-cycle-slides="> section">
@@ -101,7 +99,9 @@ from openedx.core.djangolib.markup import HTML
     </div>
     </div>
     </section>
-    
+    </main> 
+    </section>
+   
 <%block name="js_extra">
    <script type="text/javascript">
       $(window).load(function() {
