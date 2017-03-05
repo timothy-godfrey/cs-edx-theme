@@ -7,12 +7,35 @@ from openedx.core.djangolib.markup import HTML
 <section class="home">
   <header>
     <div class="outer-wrapper">
-      <div class="title">
+        div id="banner" class="home"> <?php } ?>
+        <div style="float: right; margin: 150px 15px 10px 10px;">
+            <a href="/donate" class="myButton">Donate</a>
+        </div>
+        <div id="bannerCenter">
+			  <div id="bannerText">
+                <img src="<?php echo $this->getThemePath(); ?>/img/home-banner-text.png" alt="discipleship that's whole of life">
+                <p>Communities sent as authentic expressions of God's life</p>
+			  </div>
+				<a href="#" id="scrollLink">
+				  <span class="css-arrow">
+            			  <span class="css-arrow-inside"></span>
+          			  </span>
+          			  <span class="css-arrow css-arrow-bottom">
+            			  <span class="css-arrow-inside"></span>
+          			  </span>
+        			 </a>    			     	
+            <div id="homeSocial">
+                <a href="https://www.facebook.com/Cornerstone.Community.Australia" id="hFace" target="_blank" title="Visit us on Facebook"></a>
+                <a href="http://www.youtube.com/c/CornerstoneEduAustralia" id="hTube" target="_blank" title="Visit us on YouTube"></a>
+          	</div>
+        </div>
+    </div>
+      <!--<div class="title">
         <div class="heading-group">
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
-            <h1>${_(HTML("Free courses from <strong>{university_name}</strong>")).format(university_name="Cornerstone Community")}</h1>
+            <h1>${_(HTML("Courses from <strong>{university_name}</strong>")).format(university_name="Cornerstone Community")}</h1>
             <p>${_("For anyone, anywhere, anytime")}</p>
           % endif
         </div>
@@ -29,7 +52,7 @@ from openedx.core.djangolib.markup import HTML
           </div>
         % endif
 
-      </div>
+      </div> -->
 
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
