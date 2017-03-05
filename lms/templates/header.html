@@ -1,10 +1,11 @@
 ## mako
 <%namespace name='static' file='/static_content.html'/>
-<%inherit file="/navigation.html"/>
+<%namespace name='static' file='static_content.html'/>
+<%include file="${static.get_themed_template_path(relative_path='theme-header.html', default_path='theme-header.html')}" args="online_help_token=online_help_token" />
 
 ## TODO: this will eventually be moved to the Sass
+
 <%block name="navigation_logo">
   <img src="${static.url('images/logo.png')}" height="100" alt="Home Page" />
- <h2>Online Course Platform</h2>
 </%block>
 
