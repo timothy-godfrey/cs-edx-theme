@@ -136,7 +136,7 @@ header {
   height:130px;
   background:url(../images/bg-header.png) repeat;*/
 }
-#header-global {
+#global-navigation {
   position:relative;
   z-index:10;
   width:100%;
