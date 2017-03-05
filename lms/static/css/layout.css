@@ -117,7 +117,7 @@ img {max-width:100%;}
 	top:1px;
 }
 
-#headerCenter, #bannerCenter, #subNavCenter, .mainContentCenter, .contentPad, #footerTopCenter, #footerBottomCenter {
+#headerCenter, #bannerCenter, #subNavCenter, .mainContentCenter, .contentPad, #footerTopCenter, #footerBottomCenter, #wrapper-header{
   margin:0 auto;
   width:85.714285714286%; /* 600 / 700 */
   max-width:1100px;
@@ -136,7 +136,7 @@ header {
   height:130px;
   background:url(../images/bg-header.png) repeat;*/
 }
-#header {
+#header-global {
   position:relative;
   z-index:10;
   width:100%;
