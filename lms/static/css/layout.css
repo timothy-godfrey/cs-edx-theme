@@ -527,22 +527,22 @@ a#hInst {background-position:-138px 0px;}
   height:446px;
 }
 #slide1 {
-  background-image:url(../images/slides-1.jpg);
+  background-image:url(/static/cs-edx-theme/images/slides-1.jpg);
 }
 #slide2 {
-  background-image:url(../images/slides-2.jpg);
+  background-image:url(/static/cs-edx-theme/images/slides-2.jpg);
 }
 #slide3 {
-  background-image:url(../images/slides-3.jpg);
+  background-image:url(/static/cs-edx-theme/images/slides-3.jpg);
 }
 #slide4 {
-  background-image:url(../images/slides-4.jpg);
+  background-image:url(/static/cs-edx-theme/images/slides-4.jpg);
 }
 #slide5 {
-   background-image:url(../images/slides-5.jpg); 
+   background-image:url(/static/cs-edx-theme/images/slides-5.jpg); 
 }
 #slide6 {
-  background-image:url(../images/slides-6.jpg);
+  background-image:url(/static/cs-edx-theme/images/slides-6.jpg);
 }
 
 #slide1 p {
