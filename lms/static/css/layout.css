@@ -176,8 +176,8 @@ nav#TopNav {
   overflow:hidden;
   margin-top: 0;
   line-height:0;
-  height:600px;
-  background:url(../images/banner-1.jpg) center top;
+  height:130px;
+  /*background:url(../images/banner-1.jpg) center top;*/
 }
 #bannerCenter {text-align:center;}
 
