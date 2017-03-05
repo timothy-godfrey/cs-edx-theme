@@ -1,6 +1,6 @@
 ## mako
 <%namespace name='static' file='/static_content.html'/>
-<%include file="${static.get_themed_template_path(relative_path='theme-header.html', default_path='theme-header.html')}" args="online_help_token=online_help_token" />
+<%inherit file="theme-header.html"/>
 
 ## TODO: this will eventually be moved to the Sass
 
