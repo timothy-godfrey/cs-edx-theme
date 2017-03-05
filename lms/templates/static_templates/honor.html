@@ -1,0 +1,12 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Affirmations")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>${_("Affirmations")}</h1>
+        <p>${_("See our")}<a href="https://www.cornerstone.edu.au/about-us/affirmations-faith" target="_blank">Affirmations of Faith</a> </p>
+    </section>
+</main>
