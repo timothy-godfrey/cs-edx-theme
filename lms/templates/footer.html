@@ -16,7 +16,11 @@
       	</div>
     	<div id="footerBottom" class="group">
         	<div id="footerBottomCenter">
-        		<p id="footerCopy">&copy; 2015 Cornerstone Community  |  abn: 49 066 809 612</p>
+        		<p id='footerCopy'><span>
+            ${_('Copyright {year}. All rights reserved.').format(
+                year=date.today().year
+            )}
+        </span> Cornerstone Community  |  abn: 49 066 809 612</p>
               	<div id="footerLinksTabletWrap">  
                     <div id="footerIcons" class="group">
                         <a href="https://www.facebook.com/Cornerstone.Community.Australia" id="fFace" target="_blank" title="Visit us on Facebook"></a>
@@ -24,7 +28,7 @@
                     </div>
                     <div class="references">
                         <span>Built on <a href="http://open.edx.org">OpenEdX</a>.</span>
-                        <span class="siteCredit">Hosting and Customisation by <a href="http://www.opensaas.com.au">OpenSaas</a></span>
+                        <span class="siteCredit">Hosting and Customisation by <a href="http://www.opensaas.com.au">OpenSaas</a>.</span>
                     </div>
                      
            	</div>           
