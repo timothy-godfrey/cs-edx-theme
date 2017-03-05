@@ -3,6 +3,37 @@
 <%inherit file="/navigation.html"/>
 
 ## TODO: this will eventually be moved to the Sass
-<%block name="navigation_logo">
+<!--<%block name="navigation_logo">
   <img src="${static.url('images/logo.png')}" height="50" alt="Home Page" />
-</%block>
+</%block> -->
+
+<header id="header">
+        <div id="headerCenter" class="group">
+        	<a id="trigger" class="menu-trigger" href="#TopNav"><img src="<?php echo $this->getThemePath(); ?>/img/btn-trigger.png"></a>
+            <a href="https://www.cornerstone.edu.au/" target="_blank" class="logo"><img src="${static.url('images/logo.png')}" alt="Cornerstone"></a>
+            <div id="extraLinks">
+            	<ul>
+                	<li><a href="https://www.cornerstone.edu.au/events-resources/upcoming-events" target="_blank">events &amp; resources</a></li>
+                  <li><img src="${static.url('images/li-diamond.png" alt=""></li>  
+                 	<li><a href="https://www.cornerstone.edu.au/contact-us" target="_blank">contact us</a></li>
+            	</ul>
+            </div>
+            <nav id="TopNav" class="group">
+            	<div id="mobileNavHeading">Menu</div>
+          		<a class="house" href="https://www.cornerstone.edu.au/" target="_blank" ></a>
+         
+                <div id="mobileNavExtraLinks">
+            	<ul>
+                	<li><a href="https://www.cornerstone.edu.au/events-resources/upcoming-events" target="_blank">events &amp; resources</a></li> 
+                 	<li><a href="https://www.cornerstone.edu.au/contact-us" target="_blank">contact us</a></li>
+            	</ul>
+                </div>
+                	<!--<li><a href="/" class="sidr-home">home</a></li>
+              		<li><a href="">why choose cornerstone</a></li>
+                 	<li><a href="">our communities</a></li>
+                 	<li><a href="">our training</a></li>
+                 	<li class="selectedPageRoot"><a class="selectedPageRoot" href="">about us</a></li> -->
+            </nav>
+        </div>
+
+ 	</header>
