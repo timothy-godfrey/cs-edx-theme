@@ -1,5 +1,6 @@
+##mako
 
-<%namespace name='static' file='static_content.html'/>
+<%namespace name='static' file='/static_content.html'/>
 <%!
 from django.utils.translation import ugettext as _
 from openedx.core.djangolib.markup import HTML
@@ -14,8 +15,8 @@ from openedx.core.djangolib.markup import HTML
 
 <!--<script src="${static.url("js/jquery-1.8.2.min.js")}"></script> -->
 <script src="${static.url("js/changes.js")}"></script>
-<script src="${static.url("js/jquery.sidr.min.js")}"></script>
-<script type="text/javascript" src="${static.url("js/jquery.cycle2.js")}"></script>
+<!-- <script src="${static.url("js/jquery.sidr.min.js")}"></script> 
+<script type="text/javascript" src="${static.url("js/jquery.cycle2.js")}"></script> -->
 <script src="${static.url("js/respond.min.js")}"></script>
 
 <script>
